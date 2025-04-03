@@ -1,8 +1,9 @@
-// Fichier : index.js
 import "https://unpkg.com/frappe-gantt/dist/frappe-gantt.css";
 import "https://unpkg.com/frappe-gantt/dist/frappe-gantt.min.js";
 
-export default {
+import { defineComponent, onMounted } from "vue";
+
+export default defineComponent({
   name: "FrappeGantt",
   props: {
     tasks: {
@@ -53,4 +54,4 @@ export default {
 
     return () => null;
   }
-};
+});
