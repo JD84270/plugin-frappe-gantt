@@ -1,0 +1,18 @@
+{
+  "name": "Frappe Gantt Plugin",
+  "type": "element",
+  "label": "Frappe Gantt",
+  "icon": "calendar",
+  "version": "0.0.1",
+  "ui": {
+    "displayName": "Frappe Gantt"
+  },
+  "properties": {
+    "tasks": {
+      "label": "Tâches",
+      "type": "array",
+      "default": []
+    }
+  }
+}
+
