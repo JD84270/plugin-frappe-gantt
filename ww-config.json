@@ -1,0 +1,10 @@
+{
+  "name": "Frappe Gantt Plugin",
+  "type": "element",
+  "label": "Frappe Gantt",
+  "icon": "calendar",
+  "version": "1.0.0",
+  "properties": {}
+}
+
+
